@@ -72,14 +72,14 @@
 <body>
     <div id="login-screen">
         <h2 style="color: var(--gold);">ENTER ADMIN PIN</h2>
-        <input type="password" id="admin-pin" class="pin-input" placeholder="****" maxlength="4">
+        <input type="password" id="admin-pin" class="pin-input" placeholder="******" maxlength="6">
         <button class="start-btn" onclick="checkPin()">LOGIN</button>
         <p id="login-msg" style="color: var(--unsold); margin-top: 10px;"></p>
     </div>
 
 
     <div id="start-screen">
-        <h1 style="margin-bottom: 30px; color: var(--gold);">CRICKET AUCTION 2026</h1>
+        <h1 style="margin-bottom: 30px; color: var(--gold);">LABANYA DEI PUR PREMIERE LEAGUE 2026 SEASON 1</h1>
         <button class="start-btn" onclick="startNow()">START AUCTION 🏏</button>
     </div>
 
@@ -319,7 +319,7 @@ function markSold() {
             clearInterval(timer); 
             startTimer(); 
         }
-        const CORRECT_PIN = "9809";
+        const CORRECT_PIN = "757079";
 
 function checkPin() {
     const enteredPin = document.getElementById('admin-pin').value;
